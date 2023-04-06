@@ -5,50 +5,89 @@ body {
     margin: 0;
 }
 
-.bgimg {
+figure {
     size: fit-content;
     display: flex;
     flex-direction: column;
-
+    margin: 0;
 }
 
-.bgimg img {
+figure img {
     width: 35vw;
     height: 100vh;
     object-fit: cover;
 }
 
-.bgimg p {
-    z-index: 1;
-    color: white;
+figcaption {
     text-align: center;
-    margin-bottom: -174px;
-    background-color: rgba(0, 0, 0, 0.384);
     font-size: 5rem;
+    color: white;
+    margin-top: -82vh;
+    background-color: rgba(0, 0, 0, 0.295);
 }
+
+h1 {
+    font-size: 1.5rem;
+}
+
 
 label,
 input {
     display: flex;
     flex-direction: column;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .wrapper {
+    width: 100vw;
     margin-top: 60px;
 
 }
 
+h3 {
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+
 .formWrapper {
-    background-color: red;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.274);
     padding: 30px;
-    padding-top: 60px;
+    margin-left: -60px;
+    margin-top: 60px;
+    padding-top: 10px;
 }
 
 .form {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin-left: 30px;
     max-width: 600px;
+}
 
+footer {
+    margin-top: 30px;
+}
+
+.createAccount {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #596D48;
+}
+
+footer p {
+    margin-top: 0px;
+    color: #596D48;
+    cursor: pointer;
+}
+
+h4 {
+    display: flex;
 }
