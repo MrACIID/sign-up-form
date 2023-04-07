@@ -12,11 +12,11 @@ body {
     border-color: rgba(76, 0, 255, 0.664);
 }
 
+/*MAIN IMAGE*/
 figure {
     display: flex;
     flex-direction: column;
     width: 35vw;
-    height: 80vh;
     margin: 0;
 }
 
@@ -31,15 +31,16 @@ figure img {
 figcaption {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 10px;
     font-size: 3rem;
     color: rgb(255, 255, 255);
     padding: 34px;
     font-weight: bold;
     letter-spacing: 1rem;
-    margin-top: -64vh;
+    margin-top: -565px;
     background-color: rgba(0, 0, 0, 0.295);
 }
+
+/*HEADER*/
 
 h1 {
     font-size: 1.5rem;
@@ -52,50 +53,7 @@ h1 i {
 }
 
 
-
-
-label,
-input {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.1rem;
-    letter-spacing: 0.1rem;
-}
-
-label {
-    font-size: 0.8rem;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.795);
-}
-
-input {
-    text-decoration: none;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.144);
-    border-width: 1px;
-    border-radius: 5px;
-}
-
-input:focus {
-    outline: none;
-    border-width: 2px;
-    border-color: rgba(76, 0, 255, 0.664);
-}
-
-
-input:valid {
-    outline: none;
-    border-width: 2px;
-    border-color: green;
-}
-
-.wrapper {
-    width: 100vw;
-    margin-top: 60px;
-
-
-}
-
+/*FORM*/
 h3 {
     font-size: 1.4rem;
     margin-left: 30px;
@@ -103,8 +61,45 @@ h3 {
 
 }
 
-.formWrapper {
+label,
+input {
+    display: flex;
+    flex-direction: column;
+}
 
+label {
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.795);
+}
+
+input {
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.144);
+    border-width: 2px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: rgba(76, 0, 255, 0.664);
+}
+
+input:valid {
+    border-color: green;
+}
+
+
+.wrapper {
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+.formWrapper {
     box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.274);
     padding: 30px;
     margin-left: -60px;
@@ -120,6 +115,7 @@ h3 {
     max-width: 600px;
 }
 
+/*FOOTER*/
 footer {
     margin-top: 30px;
 }
@@ -129,7 +125,7 @@ footer {
     font-size: 1.2rem;
     color: white;
     font-weight: bold;
-    padding: 15px;
+    padding: 15px 40px 15px 40px;
     padding-right: 40px;
     padding-left: 40px;
     border-radius: 10px;
@@ -145,12 +141,10 @@ footer {
 }
 
 footer span {
-    margin-top: 0px;
     color: rgba(76, 0, 255, 0.664);
     cursor: pointer;
 }
 
 h4 {
-    display: flex;
     color: rgba(0, 0, 0, 0.795);
 }
